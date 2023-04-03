@@ -3,35 +3,29 @@
     margin-top: 5rem;
 }
 
-.service-section {
-    margin-top: 5rem;
-    display: flex;
-    gap: 4%;
-
+.services {
+ gap: 10%;
 }
 
-.service-section div {
+.services-component {
     background-color: var(--primary-color2);
     border: 1px solid var(--primary-color3);
     border-radius: 20px;
     padding: 20px;
-    width: 32%;
-    /* width: max-content; */
+    margin-top: 10%;
     transition: var(--transition);
-
-
 }
 
-.service-section div:hover {
+.services-component:hover {
     background: transparent;
     border: 1px solid var(--primary-color7);
 
 }
 
-.service-section div img {
+.services-component img {
     border-radius: 20px;
     margin-bottom: 20px;
-    width: 300px;
+    width: 250px;
 }
 
 .btn {

@@ -31,7 +31,7 @@
 
 }
 
-.first-section .btn1 {
+.btn1 {
     background-color: var(--primary-color7);
     text-decoration: none;
     font-size: 18px;
@@ -90,14 +90,13 @@ background-color: var(--primary-color7);
 
 .btn2:hover {
     letter-spacing: 2px;
-    background: red;
+    background:var(--primary-color7);
     color: var(--primary-color6);
     box-shadow: var(--primary-color7);
 }
 
-.second-section {
-    margin: 0;
-    width: 50%;
+.profile-image{
+   
         /* margin-left: 15%; */
     /* text-align: center; */
     background-color: var(--primary-color2);
